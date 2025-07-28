@@ -1,14 +1,5 @@
 (executable
- (name bool_array)
- (modules bool_array)
-)
-
-(executable
- (name bool_array_native)
- (modules bool_array_native)
-)
-
-(executable
- (name bool_array_fp)
- (modules bool_array_fp)
+ (name boolArray)
+ (modules boolArray arrayOps)
+ (preprocess (pps ppx_deriving.show))
 )
