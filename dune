@@ -1,5 +1,5 @@
 (executable
- (name boolArray)
- (modules boolArray arrayOps)
+ (name main)
+ (modules main column dataframe)
  (preprocess (pps ppx_deriving.show))
 )

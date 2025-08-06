@@ -1,1 +1,1 @@
-opam exec -- dune exec ./boolArray.exe
+opam exec -- dune exec ./main.exe
